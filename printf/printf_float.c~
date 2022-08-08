@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void)
+{
+	float e = 2.718281828;
+
+	printf("%5.0f\n", e);
+	printf("%5.0f.0\n", e);
+	printf("%5.1f0\n", e);
+	printf("%5.2f0\n", e);
+	printf("%5.6f0\n", e);
+	printf("%5f0\n", e);/*no precision falls for a default */
+	printf("%5.7f0\n", e);
+	return (0);
+}

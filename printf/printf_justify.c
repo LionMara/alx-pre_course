@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+	printf("% 05d\n", 0);
+	printf("%+-5d\n", -7);
+	printf("%+-5d\n", 321456789);
+	printf("%+-5d\n", -234567891);
+	return (0);
+}
